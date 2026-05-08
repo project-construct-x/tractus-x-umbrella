@@ -32,7 +32,10 @@ portal:
     ## UNTIL HERE
     nameOverride: "portal-backend-postgresql"
     architecture: standalone
+    dbName: postgres
+    dbPort: 5432
     auth:
+      dbUser: postgres
       password: "dbpasswordportal"
       portalPassword: "dbpasswordportal"
       replicationPassword: "dbpasswordportal"
