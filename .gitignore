@@ -7,3 +7,4 @@ target/
 **/values-local.yaml
 **/your-values.yaml
 hack/smtp.sh
+**/*.bru
