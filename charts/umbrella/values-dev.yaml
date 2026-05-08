@@ -66,6 +66,7 @@ portal:
       clientId: "clearinghouse-client-id-default"
       clientSecret: ""
       tokenAddress: "https://someiam.dev.construct-x.net/realms/example/protocol/openid-connect/token"
+      clearinghouseConnectDisabled: true
   issuerComponentAddress: "https://ssi-credential-issuer.dev.construct-x.net"
   frontend:
     portal:
